@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* section first */
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.img-logo{
+    height: 70px;
+    width: 20%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-logo img{
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+}
+.nav-menu ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+}
+.nav-menu li{
+    padding: 0 20px;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.nav-menu a:hover {
+    color: rgb(199, 157, 229);
+}
+
+/* section second */
+.sec-second{
+    background-image: url(C:/Users/vishal/OneDrive/Desktop/CodeSoftIntern/Level1/task1PortFolio/pexels-lukas-574070.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+}
+.hero-header{
+    width: 30%;
+    height: 400px;
+    position: absolute;
+    margin: 150px 0 0 150px;
+    text-shadow: 1px 1px 2px black;
+}
+.hero-header h1{
+    font-size: 50px;
+    color: rgb(20, 20, 19);
+}
+.hero-header p{
+    font-size: 25px;
+    color: #eedfdf;
+}
+div .icons{
+    width: 50%;
+    text-decoration: none;
+    /* color: red; */
+    cursor: pointer;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#icon1:hover {
+    color: #24292e;
+}
+#icon2:hover{
+    color: #0077b5;
+}
+#icon3:hover{
+    color: #25D366;
+}
+#icon4:hover{
+    color: #4267B2;
+}
+#icon5:hover{
+    color: #EA4335;
+}
+.hero-header button{
+    cursor: pointer;
+    background-color: rgb(17, 17, 17);
+    width: 40%;
+    height: 35px;
+    display: inline;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: transparent;
+    color: white;
+    font-size: large;
+    box-shadow: 1px 0.2px 5px black;
+}
+.buttons a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/* section third */
+.sec-third {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 50px; */
+}
+.introduction {
+    height: 600px;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.parahs {
+    width: 40%;
+    height: 600px;
+    font-family: sans-serif;
+    margin-top: 70px;
+}
+.parahs p{
+    color: rgb(81, 80, 80);
+    font-size: 20px;
+}
+.parahs h1 {
+    font-size: 40px;
+}
+.para-icons i{
+    font-size: 80px;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+/* section fourth */
+
+.proficiency{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.proficiency h1 {
+    font-size: 40px;
+}
+.proficiency p {
+    font-size: 20px;
+}
+.meagre {
+    margin: 200px 0 0 150px;
+    height: 500px;
+    width: 40%;
+}
+.empty{
+    height: 15px;
+    width: 550px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.fill{
+    height: 100%;
+    background-color:rgb(42, 80, 206);
+    border-radius: 50px;
+}
+.frontend {
+    width: 90%;
+}
+.backend {
+    width: 75%;
+}
+.programming {
+    width: 40%;
+}
+.pro-image {
+    width: 40%;
+    height: 500px;
+}
+
+/* fifth section */
+.sec-fifth h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black;
+}
+.sec-fifth button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.project-name {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.project{
+    height: 150px;
+    width: 47%;
+    margin-bottom: 30px;
+    box-shadow: 1px 0.2px 5px black;
+}
+.project i {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.project p {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sec-fifth .button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-fifth button{
+    cursor: pointer;
+    width: 10%;
+    height: 35px;
+    background-color: rgb(17, 17, 17);
+    border-radius: 10px;
+    border: transparent;
+    color: white;
+    font-size: large;
+    box-shadow: 1px 0.2px 5px black;
+    margin-bottom: 100px;
+}
+
+/* section sixth */
+.sec-sixth{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 100px; */
+}
+.sixth-section{
+    width: 90%;
+    height: 400px;
+}
+.sixth-section h1 {
+    font-size: 40px;
+}
+.sixth-section p {
+    color: rgb(81, 80, 80);
+    font-size: 20px;
+}
+.sixth-section img{
+    height: 200px;
+    /* width: 400px; */
+    cursor: pointer;
+}
+.sec-sixth .imgs{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*FOOTER */
+footer {
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eedfdf;
+}
+.sec-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-last p{
+    font-size: 20px;
+}
+footer .parahss {
+    width: 65%;
+}
+footer #icon1:hover {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 200%;
+}
+.footer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.displayPicture{
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+    border: 4px solid #ffffff;
+    overflow: hidden;
+    /* background-size: cover; */
+}
+.displayPicture img{
+    height: 350px;
+    width: 350px;
+}
+footer .icons {
+    width: 30%;
+    text-shadow: 1px 1px 1px black;
+}
